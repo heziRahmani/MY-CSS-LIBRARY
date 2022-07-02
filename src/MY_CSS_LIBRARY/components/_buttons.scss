@@ -1,0 +1,39 @@
+@mixin base-btn-mixin($mixin-btn-color: transparent) {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: $base_padding * 2 $base_padding * 5;
+  border-radius: $base-border-radius;
+  background-color: $mixin-btn-color;
+}
+//clean button variant
+.btn {
+  @include base-btn-mixin;
+  &:hover {
+    background-color: $ultimate-Gray;
+  }
+}
+@each $key, $val in $colors {
+  .btn-#{$key} {
+    @include base-btn-mixin($val);
+    &:hover {
+      background-color: lighten($val, 5);
+    }
+  }
+  .btn-outline-#{$key} {
+    @include base-btn-mixin(#fff);
+    border: $base-border-thickness solid $val;
+    &:hover {
+      background-color: $val;
+    }
+  }
+  .btn-complement {
+    @include base-btn-mixin($val);
+    color: light-complement-color($val);
+    &:hover {
+      color: $val;
+      background-color: light-complement-color($val);
+    }
+  }
+}

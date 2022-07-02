@@ -1,0 +1,26 @@
+//place holder rool % == not compiled in the css
+%nav-flex-layout {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.navBar {
+  @extend %nav-flex-layout;
+  padding: $base-padding $base-padding * 2;
+  box-shadow: $base-box-shedow;
+  .site-title {
+    font-size: $font-size-lg;
+  }
+  .container {
+    @extend %nav-flex-layout;
+  }
+}
+
+//nav bar color variations
+@each $key, $val in $colors {
+  .nav-bar-#{$key} {
+    @extend .navBar;
+    background-color: $val;
+  }
+}
