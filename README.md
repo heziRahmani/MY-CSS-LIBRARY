@@ -8,7 +8,7 @@ You can use the library in a few simple steps.
 
 Instaltion: npm install node-sass.
 
-2. Copy the SAAS folder to your project.
+2. Copy the MY_CSS_LIBRARY folder to your project.
 
 3. Copy this line to the scripts in the packeg.json: "sass": "sass src/MY_CSS_LIBRARY:src/Css --watch --no-source-map"
 
