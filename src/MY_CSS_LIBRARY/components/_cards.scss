@@ -9,7 +9,7 @@
   display: block;
   padding: $base_padding;
   border: $base-border-thickness #ddd;
-  box-shadow: $base-box-shedow;
+  box-shadow: $base-box-shadow;
   border-radius: math.div($base-border-radius, 4);
   width: 200px;
   .card-title {

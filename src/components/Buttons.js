@@ -5,6 +5,7 @@ export default function Buttons() {
     <section className='py-9 fs-md' id='btn-section'>
       <header>
         <h2 className='fs-xxl'>BUTTONS</h2>
+        {/* peel btn */}
       </header>
       <div className='row gap-5 mt-3'>
         <a href='#btn-section' className='btn'>
@@ -33,6 +34,12 @@ export default function Buttons() {
           click me
         </a>
       </div>
+      {/* regular */}
+      {/* Outline buttons */}
+      {/* button sizes */}
+      {/* Disable state */}
+      {/* block button */}
+      {/*  */}
     </section>
   );
 }

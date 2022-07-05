@@ -337,11 +337,32 @@ $utilities: (
 "list-style":(
     "prefix":"li-s",
     values:(
-        "circle":circle,
-        "decimal":decimal,
-        "square":square,
-        "upper-latin":upper-latin,
-        "upper-roman":upper-roman
+        "c":circle,
+        "d":decimal,
+        "s":square,
+        "ul":upper-latin,
+        "un":upper-roman
+    )
+),
+
+
+
+//box-shadow
+"box-shadow":(
+    "prefix":"bs",
+    values:(
+        "1":$base-box-shadow,
+        "2":$box-shadow-5,
+        "3":$box-shadow-2,
+        "4":$box-shadow-3,
+        "5":$box-shadow-4,
+        "6": $box-shadow-1,
+        "7": $box-shadow-6,
+        "8": $box-shadow-8,
+        "9": $box-shadow-9,
+        "10": $box-shadow-10,
+        "11": $box-shadow-11,
+        "12": $box-shadow-12,
     )
 )
 

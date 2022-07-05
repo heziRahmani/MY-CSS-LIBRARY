@@ -15172,7 +15172,7 @@ a {
   display: block;
   padding: 0.5rem;
   border: 1px #ddd;
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
   border-radius: 5px;
   width: 200px;
 }
@@ -15191,10 +15191,9 @@ a {
 .btn {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: transparent;
 }
 .btn:hover {
@@ -15204,23 +15203,22 @@ a {
 .btn-error {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: red;
 }
 .btn-error:hover {
   background-color: #ff1a1a;
 }
 
+/* Outline buttons */
 .btn-outline-error {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid red;
 }
@@ -15231,10 +15229,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: red;
   color: white;
 }
@@ -15243,26 +15240,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Cherry-Tomato {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #ed2b33;
 }
 .btn-Cherry-Tomato:hover {
   background-color: #ef434a;
 }
 
+/* Outline buttons */
 .btn-outline-Cherry-Tomato {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #ed2b33;
 }
@@ -15273,10 +15273,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #ed2b33;
   color: white;
 }
@@ -15285,26 +15284,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Cherry-Tomato-v2 {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #e94b3c;
 }
 .btn-Cherry-Tomato-v2:hover {
   background-color: #ec6053;
 }
 
+/* Outline buttons */
 .btn-outline-Cherry-Tomato-v2 {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #e94b3c;
 }
@@ -15315,10 +15317,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #e94b3c;
   color: white;
 }
@@ -15327,26 +15328,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-raspberry {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #8a307f;
 }
 .btn-raspberry:hover {
   background-color: #9d3790;
 }
 
+/* Outline buttons */
 .btn-outline-raspberry {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #8a307f;
 }
@@ -15357,10 +15361,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #8a307f;
   color: #ccedd0;
 }
@@ -15369,26 +15372,29 @@ a {
   background-color: #ccedd0;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Living_Coral {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fc766a;
 }
 .btn-Living_Coral:hover {
   background-color: #fd8d83;
 }
 
+/* Outline buttons */
 .btn-outline-Living_Coral {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #fc766a;
 }
@@ -15399,10 +15405,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fc766a;
   color: white;
 }
@@ -15411,26 +15416,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-info {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: orange;
 }
 .btn-info:hover {
   background-color: #ffae1a;
 }
 
+/* Outline buttons */
 .btn-outline-info {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid orange;
 }
@@ -15441,10 +15449,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: orange;
   color: white;
 }
@@ -15453,26 +15460,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Blooming-Dahlia {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #e69a8d;
 }
 .btn-Blooming-Dahlia:hover {
   background-color: #ebada2;
 }
 
+/* Outline buttons */
 .btn-outline-Blooming-Dahlia {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #e69a8d;
 }
@@ -15483,10 +15493,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #e69a8d;
   color: white;
 }
@@ -15495,26 +15504,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Peach {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #eea47f;
 }
 .btn-Peach:hover {
   background-color: #f1b496;
 }
 
+/* Outline buttons */
 .btn-outline-Peach {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #eea47f;
 }
@@ -15525,10 +15537,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #eea47f;
   color: white;
 }
@@ -15537,26 +15548,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Windsor-Wine {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #643e46;
 }
 .btn-Windsor-Wine:hover {
   background-color: #744851;
 }
 
+/* Outline buttons */
 .btn-outline-Windsor-Wine {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #643e46;
 }
@@ -15567,10 +15581,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #643e46;
   color: #c6dbd7;
 }
@@ -15579,26 +15592,29 @@ a {
   background-color: #c6dbd7;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Cream-Gold {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #e0c568;
 }
 .btn-Cream-Gold:hover {
   background-color: #e4cd7d;
 }
 
+/* Outline buttons */
 .btn-outline-Cream-Gold {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #e0c568;
 }
@@ -15609,10 +15625,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #e0c568;
   color: white;
 }
@@ -15621,26 +15636,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Dusky-Citron {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #e3cd81;
 }
 .btn-Dusky-Citron:hover {
   background-color: #e8d596;
 }
 
+/* Outline buttons */
 .btn-outline-Dusky-Citron {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #e3cd81;
 }
@@ -15651,10 +15669,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #e3cd81;
   color: white;
 }
@@ -15663,26 +15680,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Illuminating {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #f4df4e;
 }
 .btn-Illuminating:hover {
   background-color: #f5e366;
 }
 
+/* Outline buttons */
 .btn-outline-Illuminating {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #f4df4e;
 }
@@ -15693,10 +15713,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #f4df4e;
   color: white;
 }
@@ -15705,26 +15724,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Hunter-Green {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #435e55;
 }
 .btn-Hunter-Green:hover {
   background-color: #4e6d62;
 }
 
+/* Outline buttons */
 .btn-outline-Hunter-Green {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #435e55;
 }
@@ -15735,10 +15757,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #435e55;
   color: #d8c8cd;
 }
@@ -15747,26 +15768,29 @@ a {
   background-color: #d8c8cd;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Forest-Green {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #2c5f2d;
 }
 .btn-Forest-Green:hover {
   background-color: #347035;
 }
 
+/* Outline buttons */
 .btn-outline-Forest-Green {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #2c5f2d;
 }
@@ -15777,10 +15801,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #2c5f2d;
   color: #dab0d9;
 }
@@ -15789,26 +15812,29 @@ a {
   background-color: #dab0d9;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-secondery {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: green;
 }
 .btn-secondery:hover {
   background-color: #009a00;
 }
 
+/* Outline buttons */
 .btn-outline-secondery {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid green;
 }
@@ -15819,10 +15845,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: green;
   color: #ff80ff;
 }
@@ -15831,26 +15856,29 @@ a {
   background-color: #ff80ff;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Moss-Green {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #97bc62;
 }
 .btn-Moss-Green:hover {
   background-color: #a3c474;
 }
 
+/* Outline buttons */
 .btn-outline-Moss-Green {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #97bc62;
 }
@@ -15861,10 +15889,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #97bc62;
   color: white;
 }
@@ -15873,26 +15900,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Teal {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #4b878b;
 }
 .btn-Teal:hover {
   background-color: #54979c;
 }
 
+/* Outline buttons */
 .btn-outline-Teal {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #4b878b;
 }
@@ -15903,10 +15933,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #4b878b;
   color: #f1e5e4;
 }
@@ -15915,26 +15944,29 @@ a {
   background-color: #f1e5e4;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-ligte_teal {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #22c1c3;
 }
 .btn-ligte_teal:hover {
   background-color: #26d6d9;
 }
 
+/* Outline buttons */
 .btn-outline-ligte_teal {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #22c1c3;
 }
@@ -15945,10 +15977,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #22c1c3;
   color: #fbe9e9;
 }
@@ -15957,26 +15988,29 @@ a {
   background-color: #fbe9e9;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Aged-Copper {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #5cc8d7;
 }
 .btn-Aged-Copper:hover {
   background-color: #70cfdc;
 }
 
+/* Outline buttons */
 .btn-outline-Aged-Copper {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #5cc8d7;
 }
@@ -15987,10 +16021,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #5cc8d7;
   color: white;
 }
@@ -15999,26 +16032,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Mint {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #adefd1;
 }
 .btn-Mint:hover {
   background-color: #c2f3dd;
 }
 
+/* Outline buttons */
 .btn-outline-Mint {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #adefd1;
 }
@@ -16029,10 +16065,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #adefd1;
   color: white;
 }
@@ -16041,26 +16076,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Sagebrush-Green {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #567572;
 }
 .btn-Sagebrush-Green:hover {
   background-color: #618480;
 }
 
+/* Outline buttons */
 .btn-outline-Sagebrush-Green {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #567572;
 }
@@ -16071,10 +16109,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #567572;
   color: #e9e1e2;
 }
@@ -16083,26 +16120,29 @@ a {
   background-color: #e9e1e2;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Turquoise {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #42eadd;
 }
 .btn-Turquoise:hover {
   background-color: #59ede1;
 }
 
+/* Outline buttons */
 .btn-outline-Turquoise {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #42eadd;
 }
@@ -16113,10 +16153,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #42eadd;
   color: white;
 }
@@ -16125,26 +16164,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Sailor-Blue {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #00203f;
 }
 .btn-Sailor-Blue:hover {
   background-color: #002d59;
 }
 
+/* Outline buttons */
 .btn-outline-Sailor-Blue {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #00203f;
 }
@@ -16155,10 +16197,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #00203f;
   color: #ff9d3f;
 }
@@ -16167,26 +16208,29 @@ a {
   background-color: #ff9d3f;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-indigo {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #1e2761;
 }
 .btn-indigo:hover {
   background-color: #242f74;
 }
 
+/* Outline buttons */
 .btn-outline-indigo {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #1e2761;
 }
@@ -16197,10 +16241,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #1e2761;
   color: #e1d89d;
 }
@@ -16209,26 +16252,29 @@ a {
   background-color: #e1d89d;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-primery {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: BLUE;
 }
 .btn-primery:hover {
   background-color: #1a1aff;
 }
 
+/* Outline buttons */
 .btn-outline-primery {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid BLUE;
 }
@@ -16239,10 +16285,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: BLUE;
   color: white;
 }
@@ -16251,26 +16296,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Turkish-Sea {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #195190;
 }
 .btn-Turkish-Sea:hover {
   background-color: #1d5da6;
 }
 
+/* Outline buttons */
 .btn-outline-Turkish-Sea {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #195190;
 }
@@ -16281,10 +16329,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #195190;
   color: #f2d6b6;
 }
@@ -16293,26 +16340,29 @@ a {
   background-color: #f2d6b6;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Royal-Blue {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #00539c;
 }
 .btn-Royal-Blue:hover {
   background-color: #0061b6;
 }
 
+/* Outline buttons */
 .btn-outline-Royal-Blue {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #00539c;
 }
@@ -16323,10 +16373,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #00539c;
   color: #ffca9c;
 }
@@ -16335,26 +16384,29 @@ a {
   background-color: #ffca9c;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Electric-Blue-Lemonade {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #0063b2;
 }
 .btn-Electric-Blue-Lemonade:hover {
   background-color: #0071cc;
 }
 
+/* Outline buttons */
 .btn-outline-Electric-Blue-Lemonade {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #0063b2;
 }
@@ -16365,10 +16417,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #0063b2;
   color: #ffd4b2;
 }
@@ -16377,26 +16428,29 @@ a {
   background-color: #ffd4b2;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Pacific-Coast {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #5b84b1;
 }
 .btn-Pacific-Coast:hover {
   background-color: #6c91b9;
 }
 
+/* Outline buttons */
 .btn-outline-Pacific-Coast {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #5b84b1;
 }
@@ -16407,10 +16461,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #5b84b1;
   color: white;
 }
@@ -16419,26 +16472,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Light-Blue {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #8bbee8;
 }
 .btn-Light-Blue:hover {
   background-color: #a0caec;
 }
 
+/* Outline buttons */
 .btn-outline-Light-Blue {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #8bbee8;
 }
@@ -16449,10 +16505,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #8bbee8;
   color: white;
 }
@@ -16461,26 +16516,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Ice-Flow {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #c7d3d4;
 }
 .btn-Ice-Flow:hover {
   background-color: #d5dedf;
 }
 
+/* Outline buttons */
 .btn-outline-Ice-Flow {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #c7d3d4;
 }
@@ -16491,10 +16549,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #c7d3d4;
   color: white;
 }
@@ -16503,26 +16560,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Aquamarine {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #9cc3d5;
 }
 .btn-Aquamarine:hover {
   background-color: #aecedd;
 }
 
+/* Outline buttons */
 .btn-outline-Aquamarine {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #9cc3d5;
 }
@@ -16533,10 +16593,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #9cc3d5;
   color: white;
 }
@@ -16545,26 +16604,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-purple {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #93385f;
 }
 .btn-purple:hover {
   background-color: #a53f6b;
 }
 
+/* Outline buttons */
 .btn-outline-purple {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #93385f;
 }
@@ -16575,10 +16637,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #93385f;
   color: #d9f1e7;
 }
@@ -16587,26 +16648,29 @@ a {
   background-color: #d9f1e7;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Ultra-Violet {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #5f4b8b;
 }
 .btn-Ultra-Violet:hover {
   background-color: #6a549c;
 }
 
+/* Outline buttons */
 .btn-outline-Ultra-Violet {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #5f4b8b;
 }
@@ -16617,10 +16681,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #5f4b8b;
   color: #edf1e4;
 }
@@ -16629,26 +16692,29 @@ a {
   background-color: #edf1e4;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Royal-Purple {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #603f83;
 }
 .btn-Royal-Purple:hover {
   background-color: #6d4794;
 }
 
+/* Outline buttons */
 .btn-outline-Royal-Purple {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #603f83;
 }
@@ -16659,10 +16725,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #603f83;
   color: #e1ebd6;
 }
@@ -16671,26 +16736,29 @@ a {
   background-color: #e1ebd6;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Raspberry {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #d64161;
 }
 .btn-Raspberry:hover {
   background-color: #db5672;
 }
 
+/* Outline buttons */
 .btn-outline-Raspberry {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #d64161;
 }
@@ -16701,10 +16769,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #d64161;
   color: white;
 }
@@ -16713,26 +16780,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Orchid {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #d198c5;
 }
 .btn-Orchid:hover {
   background-color: #d9aacf;
 }
 
+/* Outline buttons */
 .btn-outline-Orchid {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #d198c5;
 }
@@ -16743,10 +16813,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #d198c5;
   color: white;
 }
@@ -16755,26 +16824,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Light-Purple {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #d7a9e3;
 }
 .btn-Light-Purple:hover {
   background-color: #e0bce9;
 }
 
+/* Outline buttons */
 .btn-outline-Light-Purple {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #d7a9e3;
 }
@@ -16785,10 +16857,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #d7a9e3;
   color: white;
 }
@@ -16797,26 +16868,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Pink-Salt {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fad0c9;
 }
 .btn-Pink-Salt:hover {
   background-color: #fce4e0;
 }
 
+/* Outline buttons */
 .btn-outline-Pink-Salt {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #fad0c9;
 }
@@ -16827,10 +16901,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fad0c9;
   color: white;
 }
@@ -16839,26 +16912,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-maroon {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #881b4c;
 }
 .btn-maroon:hover {
   background-color: #9d1f58;
 }
 
+/* Outline buttons */
 .btn-outline-maroon {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #881b4c;
 }
@@ -16869,10 +16945,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #881b4c;
   color: #b2f0d4;
 }
@@ -16881,26 +16956,29 @@ a {
   background-color: #b2f0d4;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Marsala {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #964f4c;
 }
 .btn-Marsala:hover {
   background-color: #a75855;
 }
 
+/* Outline buttons */
 .btn-outline-Marsala {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #964f4c;
 }
@@ -16911,10 +16989,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #964f4c;
   color: #ecf5f5;
 }
@@ -16923,26 +17000,29 @@ a {
   background-color: #ecf5f5;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Copper-Coin {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #b1624e;
 }
 .btn-Copper-Coin:hover {
   background-color: #b97260;
 }
 
+/* Outline buttons */
 .btn-outline-Copper-Coin {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #b1624e;
 }
@@ -16953,10 +17033,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #b1624e;
   color: white;
 }
@@ -16965,26 +17044,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Brown-Sugar {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #a07855;
 }
 .btn-Brown-Sugar:hover {
   background-color: #ac8563;
 }
 
+/* Outline buttons */
 .btn-outline-Brown-Sugar {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #a07855;
 }
@@ -16995,10 +17077,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #a07855;
   color: #f8fafc;
 }
@@ -17007,26 +17088,29 @@ a {
   background-color: #f8fafc;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Warm-Sand {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #cdb599;
 }
 .btn-Warm-Sand:hover {
   background-color: #d5c1aa;
 }
 
+/* Outline buttons */
 .btn-outline-Warm-Sand {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #cdb599;
 }
@@ -17037,10 +17121,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #cdb599;
   color: white;
 }
@@ -17049,26 +17132,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Beige {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #d4b996;
 }
 .btn-Beige:hover {
   background-color: #dbc5a8;
 }
 
+/* Outline buttons */
 .btn-outline-Beige {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #d4b996;
 }
@@ -17079,10 +17165,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #d4b996;
   color: white;
 }
@@ -17091,26 +17176,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-white {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: white;
 }
 .btn-white:hover {
   background-color: white;
 }
 
+/* Outline buttons */
 .btn-outline-white {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid white;
 }
@@ -17121,10 +17209,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: white;
   color: white;
 }
@@ -17133,26 +17220,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Granite-Gray {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #696667;
 }
 .btn-Granite-Gray:hover {
   background-color: #767374;
 }
 
+/* Outline buttons */
 .btn-outline-Granite-Gray {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #696667;
 }
@@ -17163,10 +17253,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #696667;
   color: #e7e7e7;
 }
@@ -17175,26 +17264,29 @@ a {
   background-color: #e7e7e7;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Silver {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #a2a2a1;
 }
 .btn-Silver:hover {
   background-color: #afafae;
 }
 
+/* Outline buttons */
 .btn-outline-Silver {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #a2a2a1;
 }
@@ -17205,10 +17297,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #a2a2a1;
   color: white;
 }
@@ -17217,26 +17308,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Charcoal-Gray {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #6e6e6d;
 }
 .btn-Charcoal-Gray:hover {
   background-color: #7b7b7a;
 }
 
+/* Outline buttons */
 .btn-outline-Charcoal-Gray {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #6e6e6d;
 }
@@ -17247,10 +17341,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #6e6e6d;
   color: #ededed;
 }
@@ -17259,26 +17352,29 @@ a {
   background-color: #ededed;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Cool-Gray {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #b1b3b3;
 }
 .btn-Cool-Gray:hover {
   background-color: #bec0c0;
 }
 
+/* Outline buttons */
 .btn-outline-Cool-Gray {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #b1b3b3;
 }
@@ -17289,10 +17385,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #b1b3b3;
   color: white;
 }
@@ -17301,26 +17396,29 @@ a {
   background-color: white;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-black {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #101820;
 }
 .btn-black:hover {
   background-color: #192531;
 }
 
+/* Outline buttons */
 .btn-outline-black {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #101820;
 }
@@ -17331,10 +17429,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #101820;
   color: #ba9875;
 }
@@ -17343,26 +17440,29 @@ a {
   background-color: #ba9875;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Black-v2 {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #101820;
 }
 .btn-Black-v2:hover {
   background-color: #192531;
 }
 
+/* Outline buttons */
 .btn-outline-Black-v2 {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #101820;
 }
@@ -17373,10 +17473,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #101820;
   color: #ba9875;
 }
@@ -17385,26 +17484,29 @@ a {
   background-color: #ba9875;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .btn-Black-v3 {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #2d2926;
 }
 .btn-Black-v3:hover {
   background-color: #3b3632;
 }
 
+/* Outline buttons */
 .btn-outline-Black-v3 {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #fff;
   border: 1px solid #2d2926;
 }
@@ -17415,10 +17517,9 @@ a {
 .btn-complement {
   text-decoration: none;
   cursor: pointer;
-  display: inline-block;
-  border: 0;
+  display: block;
+  border: 1px 1rem rgb(21, 144, 179);
   padding: 1rem 2.5rem;
-  border-radius: 20px;
   background-color: #2d2926;
   color: #a2aab0;
 }
@@ -17427,6 +17528,10 @@ a {
   background-color: #a2aab0;
 }
 
+/* regular */
+/* button sizes */
+/* Disable state */
+/* block button */
 .navBar .container, .nav-bar-Black-v3 .container, .nav-bar-Black-v2 .container, .nav-bar-black .container, .nav-bar-Cool-Gray .container, .nav-bar-Charcoal-Gray .container, .nav-bar-Silver .container, .nav-bar-Granite-Gray .container, .nav-bar-white .container, .nav-bar-Beige .container, .nav-bar-Warm-Sand .container, .nav-bar-Brown-Sugar .container, .nav-bar-Copper-Coin .container, .nav-bar-Marsala .container, .nav-bar-maroon .container, .nav-bar-Pink-Salt .container, .nav-bar-Light-Purple .container, .nav-bar-Orchid .container, .nav-bar-Raspberry .container, .nav-bar-Royal-Purple .container, .nav-bar-Ultra-Violet .container, .nav-bar-purple .container, .nav-bar-Aquamarine .container, .nav-bar-Ice-Flow .container, .nav-bar-Light-Blue .container, .nav-bar-Pacific-Coast .container, .nav-bar-Electric-Blue-Lemonade .container, .nav-bar-Royal-Blue .container, .nav-bar-Turkish-Sea .container, .nav-bar-primery .container, .nav-bar-indigo .container, .nav-bar-Sailor-Blue .container, .nav-bar-Turquoise .container, .nav-bar-Sagebrush-Green .container, .nav-bar-Mint .container, .nav-bar-Aged-Copper .container, .nav-bar-ligte_teal .container, .nav-bar-Teal .container, .nav-bar-Moss-Green .container, .nav-bar-secondery .container, .nav-bar-Forest-Green .container, .nav-bar-Hunter-Green .container, .nav-bar-Illuminating .container, .nav-bar-Dusky-Citron .container, .nav-bar-Cream-Gold .container, .nav-bar-Windsor-Wine .container, .nav-bar-Peach .container, .nav-bar-Blooming-Dahlia .container, .nav-bar-info .container, .nav-bar-Living_Coral .container, .nav-bar-raspberry .container, .nav-bar-Cherry-Tomato-v2 .container, .nav-bar-Cherry-Tomato .container, .nav-bar-error .container, .navBar, .nav-bar-Black-v3, .nav-bar-Black-v2, .nav-bar-black, .nav-bar-Cool-Gray, .nav-bar-Charcoal-Gray, .nav-bar-Silver, .nav-bar-Granite-Gray, .nav-bar-white, .nav-bar-Beige, .nav-bar-Warm-Sand, .nav-bar-Brown-Sugar, .nav-bar-Copper-Coin, .nav-bar-Marsala, .nav-bar-maroon, .nav-bar-Pink-Salt, .nav-bar-Light-Purple, .nav-bar-Orchid, .nav-bar-Raspberry, .nav-bar-Royal-Purple, .nav-bar-Ultra-Violet, .nav-bar-purple, .nav-bar-Aquamarine, .nav-bar-Ice-Flow, .nav-bar-Light-Blue, .nav-bar-Pacific-Coast, .nav-bar-Electric-Blue-Lemonade, .nav-bar-Royal-Blue, .nav-bar-Turkish-Sea, .nav-bar-primery, .nav-bar-indigo, .nav-bar-Sailor-Blue, .nav-bar-Turquoise, .nav-bar-Sagebrush-Green, .nav-bar-Mint, .nav-bar-Aged-Copper, .nav-bar-ligte_teal, .nav-bar-Teal, .nav-bar-Moss-Green, .nav-bar-secondery, .nav-bar-Forest-Green, .nav-bar-Hunter-Green, .nav-bar-Illuminating, .nav-bar-Dusky-Citron, .nav-bar-Cream-Gold, .nav-bar-Windsor-Wine, .nav-bar-Peach, .nav-bar-Blooming-Dahlia, .nav-bar-info, .nav-bar-Living_Coral, .nav-bar-raspberry, .nav-bar-Cherry-Tomato-v2, .nav-bar-Cherry-Tomato, .nav-bar-error {
   width: 100%;
   justify-content: space-between;
@@ -17436,7 +17541,7 @@ a {
 
 .navBar, .nav-bar-Black-v3, .nav-bar-Black-v2, .nav-bar-black, .nav-bar-Cool-Gray, .nav-bar-Charcoal-Gray, .nav-bar-Silver, .nav-bar-Granite-Gray, .nav-bar-white, .nav-bar-Beige, .nav-bar-Warm-Sand, .nav-bar-Brown-Sugar, .nav-bar-Copper-Coin, .nav-bar-Marsala, .nav-bar-maroon, .nav-bar-Pink-Salt, .nav-bar-Light-Purple, .nav-bar-Orchid, .nav-bar-Raspberry, .nav-bar-Royal-Purple, .nav-bar-Ultra-Violet, .nav-bar-purple, .nav-bar-Aquamarine, .nav-bar-Ice-Flow, .nav-bar-Light-Blue, .nav-bar-Pacific-Coast, .nav-bar-Electric-Blue-Lemonade, .nav-bar-Royal-Blue, .nav-bar-Turkish-Sea, .nav-bar-primery, .nav-bar-indigo, .nav-bar-Sailor-Blue, .nav-bar-Turquoise, .nav-bar-Sagebrush-Green, .nav-bar-Mint, .nav-bar-Aged-Copper, .nav-bar-ligte_teal, .nav-bar-Teal, .nav-bar-Moss-Green, .nav-bar-secondery, .nav-bar-Forest-Green, .nav-bar-Hunter-Green, .nav-bar-Illuminating, .nav-bar-Dusky-Citron, .nav-bar-Cream-Gold, .nav-bar-Windsor-Wine, .nav-bar-Peach, .nav-bar-Blooming-Dahlia, .nav-bar-info, .nav-bar-Living_Coral, .nav-bar-raspberry, .nav-bar-Cherry-Tomato-v2, .nav-bar-Cherry-Tomato, .nav-bar-error {
   padding: 0.5rem 1rem;
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 .navBar .site-title, .nav-bar-Black-v3 .site-title, .nav-bar-Black-v2 .site-title, .nav-bar-black .site-title, .nav-bar-Cool-Gray .site-title, .nav-bar-Charcoal-Gray .site-title, .nav-bar-Silver .site-title, .nav-bar-Granite-Gray .site-title, .nav-bar-white .site-title, .nav-bar-Beige .site-title, .nav-bar-Warm-Sand .site-title, .nav-bar-Brown-Sugar .site-title, .nav-bar-Copper-Coin .site-title, .nav-bar-Marsala .site-title, .nav-bar-maroon .site-title, .nav-bar-Pink-Salt .site-title, .nav-bar-Light-Purple .site-title, .nav-bar-Orchid .site-title, .nav-bar-Raspberry .site-title, .nav-bar-Royal-Purple .site-title, .nav-bar-Ultra-Violet .site-title, .nav-bar-purple .site-title, .nav-bar-Aquamarine .site-title, .nav-bar-Ice-Flow .site-title, .nav-bar-Light-Blue .site-title, .nav-bar-Pacific-Coast .site-title, .nav-bar-Electric-Blue-Lemonade .site-title, .nav-bar-Royal-Blue .site-title, .nav-bar-Turkish-Sea .site-title, .nav-bar-primery .site-title, .nav-bar-indigo .site-title, .nav-bar-Sailor-Blue .site-title, .nav-bar-Turquoise .site-title, .nav-bar-Sagebrush-Green .site-title, .nav-bar-Mint .site-title, .nav-bar-Aged-Copper .site-title, .nav-bar-ligte_teal .site-title, .nav-bar-Teal .site-title, .nav-bar-Moss-Green .site-title, .nav-bar-secondery .site-title, .nav-bar-Forest-Green .site-title, .nav-bar-Hunter-Green .site-title, .nav-bar-Illuminating .site-title, .nav-bar-Dusky-Citron .site-title, .nav-bar-Cream-Gold .site-title, .nav-bar-Windsor-Wine .site-title, .nav-bar-Peach .site-title, .nav-bar-Blooming-Dahlia .site-title, .nav-bar-info .site-title, .nav-bar-Living_Coral .site-title, .nav-bar-raspberry .site-title, .nav-bar-Cherry-Tomato-v2 .site-title, .nav-bar-Cherry-Tomato .site-title, .nav-bar-error .site-title {
   font-size: 1.75rem;
@@ -18431,22 +18536,70 @@ a {
   letter-spacing: 0.5rem;
 }
 
-.li-s-circle {
+.li-s-c {
   list-style: circle;
 }
 
-.li-s-decimal {
+.li-s-d {
   list-style: decimal;
 }
 
-.li-s-square {
+.li-s-s {
   list-style: square;
 }
 
-.li-s-upper-latin {
+.li-s-ul {
   list-style: upper-latin;
 }
 
-.li-s-upper-roman {
+.li-s-un {
   list-style: upper-roman;
+}
+
+.bs-1 {
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.bs-2 {
+  box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+}
+
+.bs-3 {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.bs-4 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.bs-5 {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.bs-6 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.bs-7 {
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+
+.bs-8 {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.bs-9 {
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.bs-10 {
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.bs-11 {
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.bs-12 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

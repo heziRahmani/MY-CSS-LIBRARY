@@ -1,5 +1,5 @@
 import Cards from "./components/Cards";
-import "./MY_CSS_LIBRARY/pages/App.scss";
+// import "./MY_CSS_LIBRARY/pages/App.scss";
 import "./CSS/index.css";
 import Colors from "./components/Colors";
 import Buttons from "./components/Buttons";

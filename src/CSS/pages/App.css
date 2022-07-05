@@ -1,1 +1,14 @@
-
+/* pages style */
+/* boxes */
+.box-sedow-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 1em;
+}

@@ -7,6 +7,16 @@
   border-radius: $base-border-radius;
   background-color: $mixin-btn-color;
 }
+// btn type 2 block
+@mixin base-btn-mixin($mixin-btn-color: transparent) {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border: $base-border-thickness $base-btn-padding rgb(21, 144, 179);
+  padding: $base_padding * 2 $base_padding * 5;
+  // border-radius: $base-border-radius;
+  background-color: $mixin-btn-color;
+}
 //clean button variant
 .btn {
   @include base-btn-mixin;
@@ -21,6 +31,7 @@
       background-color: lighten($val, 5);
     }
   }
+  /* Outline buttons */
   .btn-outline-#{$key} {
     @include base-btn-mixin(#fff);
     border: $base-border-thickness solid $val;
@@ -36,4 +47,8 @@
       background-color: light-complement-color($val);
     }
   }
+  /* regular */
+  /* button sizes */
+  /* Disable state */
+  /* block button */
 }
