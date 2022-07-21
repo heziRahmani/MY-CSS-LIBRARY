@@ -9,29 +9,33 @@ export default function Buttons() {
       </header>
       <div className='row gap-5 mt-3'>
         <a href='#btn-section' className='btn'>
-          default button
+          className='btn'
         </a>
         <a href='#btn-section' className='btn-primery'>
-          click me
+          btn-primery
         </a>
         <a href='#btn-section' className='btn-secondery'>
-          click me
+          btn-secondery
         </a>
         <a href='#btn-section' className='btn-error'>
-          click me
+          btn-error
         </a>
         <a href='#btn-section' className='btn-info'>
-          click me
+          btn-info
         </a>
-        <a
+        {/* <a
           href='#btn-section'
           className='btn-outline-Living-Coral btn-outline-Living-Coral-hover text-color-black text-hover-color-white'>
           click me
-        </a>
+        </a> */}
         <a
           href='#btn-section'
           className='btn-outline-raspberry btn-outline-raspberry-hover'>
-          click me
+          btn-outline-raspberry btn-outline-raspberry-hover
+        </a>
+        {/* AMAZON BTN */}
+        <a href='#btn-section' className='btn-amazon-veriant'>
+          btn-amazon-veriant
         </a>
       </div>
       {/* regular */}

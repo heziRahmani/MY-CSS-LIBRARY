@@ -14,9 +14,20 @@
   display: block;
   border: $base-border-thickness $base-btn-padding rgb(21, 144, 179);
   padding: $base_padding * 2 $base_padding * 5;
-  // border-radius: $base-border-radius;
+  border-radius: $base-border-radius;
   background-color: $mixin-btn-color;
 }
+/* AMAZON STYLE BUTTON */
+@mixin amazonBtn {
+  display: grid;
+  place-items: center;
+  background-color: $Amazon-background-color;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  padding: $base_padding * 1.5 $base_padding * 5;
+  color: $black-v1;
+}
+/* implemention*/
 //clean button variant
 .btn {
   @include base-btn-mixin;
@@ -47,6 +58,18 @@
       background-color: light-complement-color($val);
     }
   }
+
+  .btn-amazon-veriant {
+    @include amazonBtn();
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
   /* regular */
   /* button sizes */
   /* Disable state */

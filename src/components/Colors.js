@@ -14,7 +14,7 @@ export default function Colors() {
     "Living-Coral",
     "Blooming-Dahlia",
     "Peach",
-
+    "Amazon-background-color",
     //yellow
     "info",
     "Cream-Gold",
